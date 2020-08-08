@@ -3,7 +3,7 @@
 import pandas as pd
 
 df = pd.read_table(
-    "/Users/hide/100knocks/popular-names.txt",
+    "/Users/hide/100knocks/kadai10_20/popular-names.txt",
     header=None,
     sep="\t",
     names=["name", "sex", "number", "year"],
