@@ -16,4 +16,4 @@ for i in range(number):
     df_cut = pd.concat([df_cut, df_label], axis=0)
 
 
-df_cut.to_csv("./cut.txt", sep=" ", header=None, index=False)
+df_cut.to_csv("./kadai16.txt", sep=" ", header=None, index=False)
